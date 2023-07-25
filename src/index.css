@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Header {
+  background-color: aquamarine;
+  color: rgb(55, 8, 81);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  text-decoration: wavy;
+}
+
+.Footer {
+  background-color: black;
+  font-size: large;
+  color: yellow;
+}
+
