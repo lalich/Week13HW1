@@ -26,3 +26,30 @@ code {
   color: yellow;
 }
 
+.card1 {
+  background-image: url('../public/StonkyBvB.png');
+  background-size: 23% ;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 20px rgb(55, 8, 81);
+  width: 700px;
+  max-width: 1111px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(220, 218, 55);
+  padding: 35px;
+  margin-left: 283px;
+}
+
+.card2 {
+  background-image: url('../public/YoLoApp.png');
+  background-size: 33% ;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 20px rgb(8, 81, 40);
+  width: 700px;
+  max-width: 1111px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(113, 171, 127);
+  padding: 35px;
+  margin-left: 269px;
+}

@@ -6,13 +6,15 @@ const Project = (props) => {
         <div>
         <h1 className='Project'>This is the way to ReacT!</h1>
 
-            <div className='card'>
+            <div className='card1'>
                 <div className='profile-sidebar'> 
                         Project: StonkyBvB
-                    <img src='../public/StonkyBvB.png' alt= 'StonkyBvB'></img>
+                        <br />
+                
                     <ul>
-                        <li><a href='https://stonkybvb.onrender.com'>Take me to StonkyBvB</a></li>
-                        <li><a href= 'https://github.com/lalich/KalePjcT1.git'>GitHub Link</a></li>
+                        <a href='https://stonkybvb.onrender.com'>Take me to StonkyBvB</a>
+                        <br />
+                        <a href= 'https://github.com/lalich/KalePjcT1.git'>GitHub Link</a>
                     </ul>
                     <p className='description'>Description: StonkyBvB allows users to type a publicly traded 
                         stock ticker and receive a list of financial metrics. The user then can click
@@ -22,12 +24,14 @@ const Project = (props) => {
                 <div className='profile-main'></div>
             </div>
 
-    <div className='card'>
-    <div className='profile-sidebar'> Project: YoLo Application
-        <img src='../public/YoLoApp.png' alt='Yolo Application'></img>
+    <div className='card2'>
+    <div className='profile-sidebar'> 
+        Project: YoLo Application
+    <br />
         <ul>
-            <li><a href='https://yolo-application.onrender.com/'>Take me to the Yolo Application</a></li>
-            <li><a href= 'https://github.com/lalich/YoLo.git'>GitHub Link</a></li>
+           <a href='https://yolo-application.onrender.com/'>Take me to the Yolo Application</a>
+           <br />
+           <a href= 'https://github.com/lalich/YoLo.git'>GitHub Link</a>
         </ul>
         <p className='description'>Description: YoLo App allows users to gamble on...
             any item they type in and will offer trades on a risk/return basis.
